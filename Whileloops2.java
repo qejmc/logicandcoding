@@ -71,10 +71,15 @@ public class Whileloops2 {
             }
         }
         else if(b==a){
-            System.out.println("1");
+            System.out.println("Solution = 1");
         }
         else{
-            System.out.println("Solution = " + a + "/" + b);
+            if(b%a == 0){
+                System.out.println("Solution = " + a + "/" + b + "  *Can be simplified");
+            }
+            else{
+                System.out.println("Solution = " + a + "/" + b);
+            }
         }
 
     }
