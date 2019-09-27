@@ -9,6 +9,9 @@ public class Whileloops2 {
         System.out.println();
         System.out.println("Enter your second integer");
         int b = s.nextInt();
+        System.out.println("***********************************");
+        System.out.println("Final line printed is your solution");
+        System.out.println("***********************************");
         int y = 0;
         if(b<a){
             int n = 0;
@@ -22,45 +25,9 @@ public class Whileloops2 {
                         x++;
                         y += x;
                         if(c>0) {
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
                             System.out.println("Solution = " + y + " " + c + "/" + b);
                         }
                         else{
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
-                            System.out.println();
                             System.out.println("Solution = " + y);
                         }
                     }
